@@ -1,5 +1,6 @@
 import React from "react";
-import BottomMenu from "./bottommenu";
+import BottomMenu from "./bottomMenu";
+
 import Header from "./header";
 import "./home.scss"
 import List from "./list";
@@ -16,7 +17,8 @@ const Home = () => {
       <List/>
       <Productitem/>
       <Popularitem/>
-      <BottomMenu/>
+     <BottomMenu
+     />
     </div>
   );
 };

@@ -1,0 +1,35 @@
+.ViewProduct{
+  position: relative;
+  // max-width: 100%; 
+  // margin: 0 auto; 
+}
+.product{
+  
+
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  width: 60%;
+  padding: 1%;
+  // bottom: 0;
+margin-top: -30%;
+  
+margin-left:  18%;
+}
+.cost{
+  
+  text-align: center;
+ 
+}
+
+.cost h4{
+  text-align: center;
+}
+
+.viewfullProduct {
+  align-items: center;
+  border-radius: 25px;
+  float: left;
+}

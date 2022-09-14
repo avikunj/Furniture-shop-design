@@ -9,7 +9,7 @@ const Header = () => {
         <p>for your house</p>
       </div>
       <div className="profile">
-        <img src={Person} height={60} width={60} className="profilepic" />
+        <img src={Person}  alt="profilePicture"height={60} width={60} className="profilepic" />
       </div>
     </div>
   );
